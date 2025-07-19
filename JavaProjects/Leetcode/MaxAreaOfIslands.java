@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
-class Solution2 {
+class MaxAreaOfIslands {
     public int maxAreaOfIsland(int[][] grid) {
         int ans = 0;
         Set<Point<Integer, Integer>> set = new HashSet<>();

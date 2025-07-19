@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
-class Solution {
+class NumberOfIslands {
     public int numIslands(char[][] grid) {
         int count = 0;
         Set<Point<Integer, Integer>> set = new HashSet<>();
